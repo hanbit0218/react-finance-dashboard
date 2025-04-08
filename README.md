@@ -4,6 +4,131 @@ A comprehensive personal finance dashboard built with React and Node.js that con
 
 ## Project Timeline
 
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Finance-Lens Architecture</text>
+  
+  <!-- Client Section -->
+  <rect x="50" y="80" width="400" height="340" fill="#e9f5ff" stroke="#4285f4" stroke-width="2" rx="10" ry="10"/>
+  <text x="250" y="110" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#4285f4">Frontend (React)</text>
+  
+  <!-- Client Components -->
+  <rect x="80" y="130" width="340" height="270" fill="#ffffff" stroke="#aaa" stroke-width="1" rx="5" ry="5"/>
+  
+  <!-- UI Components -->
+  <rect x="100" y="150" width="140" height="230" fill="#e3f2fd" stroke="#90caf9" stroke-width="1" rx="5" ry="5"/>
+  <text x="170" y="170" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">UI Components</text>
+  <rect x="110" y="180" width="120" height="30" fill="#ffffff" stroke="#90caf9" stroke-width="1" rx="3" ry="3"/>
+  <text x="170" y="200" font-family="Arial" font-size="12" text-anchor="middle">Dashboard</text>
+  <rect x="110" y="220" width="120" height="30" fill="#ffffff" stroke="#90caf9" stroke-width="1" rx="3" ry="3"/>
+  <text x="170" y="240" font-family="Arial" font-size="12" text-anchor="middle">Transactions</text>
+  <rect x="110" y="260" width="120" height="30" fill="#ffffff" stroke="#90caf9" stroke-width="1" rx="3" ry="3"/>
+  <text x="170" y="280" font-family="Arial" font-size="12" text-anchor="middle">Budget</text>
+  <rect x="110" y="300" width="120" height="30" fill="#ffffff" stroke="#90caf9" stroke-width="1" rx="3" ry="3"/>
+  <text x="170" y="320" font-family="Arial" font-size="12" text-anchor="middle">Reports</text>
+  <rect x="110" y="340" width="120" height="30" fill="#ffffff" stroke="#90caf9" stroke-width="1" rx="3" ry="3"/>
+  <text x="170" y="360" font-family="Arial" font-size="12" text-anchor="middle">Settings</text>
+  
+  <!-- Core Features -->
+  <rect x="260" y="150" width="140" height="230" fill="#e8f5e9" stroke="#a5d6a7" stroke-width="1" rx="5" ry="5"/>
+  <text x="330" y="170" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Core Features</text>
+  <rect x="270" y="180" width="120" height="30" fill="#ffffff" stroke="#a5d6a7" stroke-width="1" rx="3" ry="3"/>
+  <text x="330" y="200" font-family="Arial" font-size="12" text-anchor="middle">Authentication</text>
+  <rect x="270" y="220" width="120" height="30" fill="#ffffff" stroke="#a5d6a7" stroke-width="1" rx="3" ry="3"/>
+  <text x="330" y="240" font-family="Arial" font-size="12" text-anchor="middle">Data Visualization</text>
+  <rect x="270" y="260" width="120" height="30" fill="#ffffff" stroke="#a5d6a7" stroke-width="1" rx="3" ry="3"/>
+  <text x="330" y="280" font-family="Arial" font-size="12" text-anchor="middle">Plaid Integration</text>
+  <rect x="270" y="300" width="120" height="30" fill="#ffffff" stroke="#a5d6a7" stroke-width="1" rx="3" ry="3"/>
+  <text x="330" y="320" font-family="Arial" font-size="12" text-anchor="middle">Theme/Styling</text>
+  <rect x="270" y="340" width="120" height="30" fill="#ffffff" stroke="#a5d6a7" stroke-width="1" rx="3" ry="3"/>
+  <text x="330" y="360" font-family="Arial" font-size="12" text-anchor="middle">API Client</text>
+  
+  <!-- Server Section -->
+  <rect x="550" y="80" width="400" height="340" fill="#fff5e6" stroke="#f4b400" stroke-width="2" rx="10" ry="10"/>
+  <text x="750" y="110" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#f4b400">Backend (Node.js/Express)</text>
+  
+  <!-- Server Components -->
+  <rect x="580" y="130" width="340" height="270" fill="#ffffff" stroke="#aaa" stroke-width="1" rx="5" ry="5"/>
+  
+  <!-- API Routes -->
+  <rect x="600" y="150" width="140" height="230" fill="#fff8e1" stroke="#ffecb3" stroke-width="1" rx="5" ry="5"/>
+  <text x="670" y="170" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">API Routes</text>
+  <rect x="610" y="180" width="120" height="30" fill="#ffffff" stroke="#ffecb3" stroke-width="1" rx="3" ry="3"/>
+  <text x="670" y="200" font-family="Arial" font-size="12" text-anchor="middle">Auth Routes</text>
+  <rect x="610" y="220" width="120" height="30" fill="#ffffff" stroke="#ffecb3" stroke-width="1" rx="3" ry="3"/>
+  <text x="670" y="240" font-family="Arial" font-size="12" text-anchor="middle">Plaid Routes</text>
+  <rect x="610" y="260" width="120" height="30" fill="#ffffff" stroke="#ffecb3" stroke-width="1" rx="3" ry="3"/>
+  <text x="670" y="280" font-family="Arial" font-size="12" text-anchor="middle">Transaction Routes</text>
+  <rect x="610" y="300" width="120" height="30" fill="#ffffff" stroke="#ffecb3" stroke-width="1" rx="3" ry="3"/>
+  <text x="670" y="320" font-family="Arial" font-size="12" text-anchor="middle">Budget Routes</text>
+  <rect x="610" y="340" width="120" height="30" fill="#ffffff" stroke="#ffecb3" stroke-width="1" rx="3" ry="3"/>
+  <text x="670" y="360" font-family="Arial" font-size="12" text-anchor="middle">Analytics Routes</text>
+  
+  <!-- Services -->
+  <rect x="760" y="150" width="140" height="230" fill="#f3e5f5" stroke="#ce93d8" stroke-width="1" rx="5" ry="5"/>
+  <text x="830" y="170" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Services</text>
+  <rect x="770" y="180" width="120" height="30" fill="#ffffff" stroke="#ce93d8" stroke-width="1" rx="3" ry="3"/>
+  <text x="830" y="200" font-family="Arial" font-size="12" text-anchor="middle">Auth Service</text>
+  <rect x="770" y="220" width="120" height="30" fill="#ffffff" stroke="#ce93d8" stroke-width="1" rx="3" ry="3"/>
+  <text x="830" y="240" font-family="Arial" font-size="12" text-anchor="middle">Plaid Service</text>
+  <rect x="770" y="260" width="120" height="30" fill="#ffffff" stroke="#ce93d8" stroke-width="1" rx="3" ry="3"/>
+  <text x="830" y="280" font-family="Arial" font-size="12" text-anchor="middle">Transaction Service</text>
+  <rect x="770" y="300" width="120" height="30" fill="#ffffff" stroke="#ce93d8" stroke-width="1" rx="3" ry="3"/>
+  <text x="830" y="320" font-family="Arial" font-size="12" text-anchor="middle">ML Service</text>
+  <rect x="770" y="340" width="120" height="30" fill="#ffffff" stroke="#ce93d8" stroke-width="1" rx="3" ry="3"/>
+  <text x="830" y="360" font-family="Arial" font-size="12" text-anchor="middle">Export Service</text>
+  
+  <!-- Database Section -->
+  <rect x="300" y="460" width="400" height="180" fill="#e8f4f8" stroke="#0097a7" stroke-width="2" rx="10" ry="10"/>
+  <text x="500" y="490" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#0097a7">Database (MongoDB)</text>
+  
+  <!-- Collections -->
+  <rect x="330" y="510" width="340" height="110" fill="#ffffff" stroke="#aaa" stroke-width="1" rx="5" ry="5"/>
+  <text x="500" y="535" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Collections</text>
+  
+  <rect x="350" y="550" width="140" height="50" fill="#e0f7fa" stroke="#80deea" stroke-width="1" rx="3" ry="3"/>
+  <text x="420" y="580" font-family="Arial" font-size="12" text-anchor="middle">Users</text>
+  
+  <rect x="510" y="550" width="140" height="50" fill="#e0f7fa" stroke="#80deea" stroke-width="1" rx="3" ry="3"/>
+  <text x="580" y="580" font-family="Arial" font-size="12" text-anchor="middle">Transactions</text>
+  
+  <!-- External Services -->
+  <rect x="825" y="460" width="150" height="180" fill="#fce4ec" stroke="#ec407a" stroke-width="2" rx="10" ry="10"/>
+  <text x="900" y="490" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#ec407a">External Services</text>
+  
+  <rect x="845" y="510" width="110" height="40" fill="#ffffff" stroke="#f48fb1" stroke-width="1" rx="3" ry="3"/>
+  <text x="900" y="535" font-family="Arial" font-size="12" text-anchor="middle">Plaid API</text>
+  
+  <rect x="845" y="560" width="110" height="40" fill="#ffffff" stroke="#f48fb1" stroke-width="1" rx="3" ry="3"/>
+  <text x="900" y="585" font-family="Arial" font-size="12" text-anchor="middle">Bank of America</text>
+  
+  <rect x="845" y="610" width="110" height="40" fill="#ffffff" stroke="#f48fb1" stroke-width="1" rx="3" ry="3"/>
+  <text x="900" y="635" font-family="Arial" font-size="12" text-anchor="middle">Vercel</text>
+  
+  <!-- Client-Server Connection -->
+  <path d="M450 250 L550 250" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <text x="500" y="240" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">REST API</text>
+  
+  <!-- Server-Database Connection -->
+  <path d="M750 400 L650 460" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <text x="720" y="440" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Mongoose ODM</text>
+  
+  <!-- Server-External Connection -->
+  <path d="M850 400 L870 460" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <text x="880" y="440" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">API Calls</text>
+  
+  <!-- Arrow Marker Definition -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" 
+            markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
+
 ### Week 1: Project Setup & Authentication
 
 | Day | Date     | Task                               | Description                                                                       |
